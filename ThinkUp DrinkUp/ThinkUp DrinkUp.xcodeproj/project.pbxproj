@@ -8,20 +8,52 @@
 
 /* Begin PBXBuildFile section */
 		66A7A47720E4044800D5C5C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A7A47620E4044800D5C5C0 /* AppDelegate.swift */; };
-		66A7A47920E4044800D5C5C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A7A47820E4044800D5C5C0 /* ViewController.swift */; };
+		66A7A47920E4044800D5C5C0 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A7A47820E4044800D5C5C0 /* WelcomeVC.swift */; };
 		66A7A47C20E4044800D5C5C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66A7A47A20E4044800D5C5C0 /* Main.storyboard */; };
 		66A7A47E20E4044A00D5C5C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66A7A47D20E4044A00D5C5C0 /* Assets.xcassets */; };
 		66A7A48120E4044A00D5C5C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66A7A47F20E4044A00D5C5C0 /* LaunchScreen.storyboard */; };
+		66A7A48C20E4069D00D5C5C0 /* InstructionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A7A48B20E4069D00D5C5C0 /* InstructionsVC.swift */; };
+		66A7A48E20E406C300D5C5C0 /* GetReadyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A7A48D20E406C300D5C5C0 /* GetReadyVC.swift */; };
+		66A7A49020E406FD00D5C5C0 /* AnswersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A7A48F20E406FD00D5C5C0 /* AnswersVC.swift */; };
+		66A7A49220E4071B00D5C5C0 /* FinishVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A7A49120E4071B00D5C5C0 /* FinishVC.swift */; };
+		66A7A49420E4073900D5C5C0 /* QuestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A7A49320E4073900D5C5C0 /* QuestionVC.swift */; };
+		66A7A49620E4170800D5C5C0 /* blueButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A7A49520E4170800D5C5C0 /* blueButton.swift */; };
+		66A7A4A220E419F600D5C5C0 /* Nuvo Pro - Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66A7A49820E419F500D5C5C0 /* Nuvo Pro - Medium.otf */; };
+		66A7A4A320E419F600D5C5C0 /* Nuvo Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66A7A49920E419F500D5C5C0 /* Nuvo Pro.otf */; };
+		66A7A4A420E419F600D5C5C0 /* Nuvo Pro - Extra Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66A7A49A20E419F500D5C5C0 /* Nuvo Pro - Extra Bold.otf */; };
+		66A7A4A520E419F600D5C5C0 /* Nuvo Pro - Black Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66A7A49B20E419F500D5C5C0 /* Nuvo Pro - Black Italic.otf */; };
+		66A7A4A620E419F600D5C5C0 /* Nuvo Pro - Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66A7A49C20E419F500D5C5C0 /* Nuvo Pro - Bold.otf */; };
+		66A7A4A720E419F600D5C5C0 /* Nuvo Pro - Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66A7A49D20E419F500D5C5C0 /* Nuvo Pro - Italic.otf */; };
+		66A7A4A820E419F600D5C5C0 /* Nuvo Pro - Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66A7A49E20E419F500D5C5C0 /* Nuvo Pro - Bold Italic.otf */; };
+		66A7A4A920E419F600D5C5C0 /* Nuvo Pro - Medium Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66A7A49F20E419F600D5C5C0 /* Nuvo Pro - Medium Italic.otf */; };
+		66A7A4AA20E419F600D5C5C0 /* Nuvo Pro - Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66A7A4A020E419F600D5C5C0 /* Nuvo Pro - Black.otf */; };
+		66A7A4AB20E419F600D5C5C0 /* Nuvo Pro - Extra Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66A7A4A120E419F600D5C5C0 /* Nuvo Pro - Extra Bold Italic.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		66A7A47320E4044800D5C5C0 /* ThinkUp DrinkUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ThinkUp DrinkUp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66A7A47620E4044800D5C5C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		66A7A47820E4044800D5C5C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		66A7A47820E4044800D5C5C0 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
 		66A7A47B20E4044800D5C5C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		66A7A47D20E4044A00D5C5C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66A7A48020E4044A00D5C5C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66A7A48220E4044A00D5C5C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66A7A48B20E4069D00D5C5C0 /* InstructionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsVC.swift; sourceTree = "<group>"; };
+		66A7A48D20E406C300D5C5C0 /* GetReadyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetReadyVC.swift; sourceTree = "<group>"; };
+		66A7A48F20E406FD00D5C5C0 /* AnswersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswersVC.swift; sourceTree = "<group>"; };
+		66A7A49120E4071B00D5C5C0 /* FinishVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishVC.swift; sourceTree = "<group>"; };
+		66A7A49320E4073900D5C5C0 /* QuestionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionVC.swift; sourceTree = "<group>"; };
+		66A7A49520E4170800D5C5C0 /* blueButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blueButton.swift; sourceTree = "<group>"; };
+		66A7A49820E419F500D5C5C0 /* Nuvo Pro - Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nuvo Pro - Medium.otf"; sourceTree = "<group>"; };
+		66A7A49920E419F500D5C5C0 /* Nuvo Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nuvo Pro.otf"; sourceTree = "<group>"; };
+		66A7A49A20E419F500D5C5C0 /* Nuvo Pro - Extra Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nuvo Pro - Extra Bold.otf"; sourceTree = "<group>"; };
+		66A7A49B20E419F500D5C5C0 /* Nuvo Pro - Black Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nuvo Pro - Black Italic.otf"; sourceTree = "<group>"; };
+		66A7A49C20E419F500D5C5C0 /* Nuvo Pro - Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nuvo Pro - Bold.otf"; sourceTree = "<group>"; };
+		66A7A49D20E419F500D5C5C0 /* Nuvo Pro - Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nuvo Pro - Italic.otf"; sourceTree = "<group>"; };
+		66A7A49E20E419F500D5C5C0 /* Nuvo Pro - Bold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nuvo Pro - Bold Italic.otf"; sourceTree = "<group>"; };
+		66A7A49F20E419F600D5C5C0 /* Nuvo Pro - Medium Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nuvo Pro - Medium Italic.otf"; sourceTree = "<group>"; };
+		66A7A4A020E419F600D5C5C0 /* Nuvo Pro - Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nuvo Pro - Black.otf"; sourceTree = "<group>"; };
+		66A7A4A120E419F600D5C5C0 /* Nuvo Pro - Extra Bold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nuvo Pro - Extra Bold Italic.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +86,62 @@
 		66A7A47520E4044800D5C5C0 /* ThinkUp DrinkUp */ = {
 			isa = PBXGroup;
 			children = (
+				66A7A49720E419CA00D5C5C0 /* Fonts */,
+				66A7A48820E4060A00D5C5C0 /* Model */,
+				66A7A48920E4061400D5C5C0 /* View */,
+				66A7A48A20E4061A00D5C5C0 /* Controller */,
 				66A7A47620E4044800D5C5C0 /* AppDelegate.swift */,
-				66A7A47820E4044800D5C5C0 /* ViewController.swift */,
 				66A7A47A20E4044800D5C5C0 /* Main.storyboard */,
 				66A7A47D20E4044A00D5C5C0 /* Assets.xcassets */,
 				66A7A47F20E4044A00D5C5C0 /* LaunchScreen.storyboard */,
 				66A7A48220E4044A00D5C5C0 /* Info.plist */,
 			);
 			path = "ThinkUp DrinkUp";
+			sourceTree = "<group>";
+		};
+		66A7A48820E4060A00D5C5C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		66A7A48920E4061400D5C5C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				66A7A47820E4044800D5C5C0 /* WelcomeVC.swift */,
+				66A7A48B20E4069D00D5C5C0 /* InstructionsVC.swift */,
+				66A7A48D20E406C300D5C5C0 /* GetReadyVC.swift */,
+				66A7A48F20E406FD00D5C5C0 /* AnswersVC.swift */,
+				66A7A49120E4071B00D5C5C0 /* FinishVC.swift */,
+				66A7A49320E4073900D5C5C0 /* QuestionVC.swift */,
+				66A7A49520E4170800D5C5C0 /* blueButton.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		66A7A48A20E4061A00D5C5C0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		66A7A49720E419CA00D5C5C0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				66A7A49B20E419F500D5C5C0 /* Nuvo Pro - Black Italic.otf */,
+				66A7A4A020E419F600D5C5C0 /* Nuvo Pro - Black.otf */,
+				66A7A49E20E419F500D5C5C0 /* Nuvo Pro - Bold Italic.otf */,
+				66A7A49C20E419F500D5C5C0 /* Nuvo Pro - Bold.otf */,
+				66A7A4A120E419F600D5C5C0 /* Nuvo Pro - Extra Bold Italic.otf */,
+				66A7A49A20E419F500D5C5C0 /* Nuvo Pro - Extra Bold.otf */,
+				66A7A49D20E419F500D5C5C0 /* Nuvo Pro - Italic.otf */,
+				66A7A49F20E419F600D5C5C0 /* Nuvo Pro - Medium Italic.otf */,
+				66A7A49820E419F500D5C5C0 /* Nuvo Pro - Medium.otf */,
+				66A7A49920E419F500D5C5C0 /* Nuvo Pro.otf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +202,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66A7A4A520E419F600D5C5C0 /* Nuvo Pro - Black Italic.otf in Resources */,
+				66A7A4A620E419F600D5C5C0 /* Nuvo Pro - Bold.otf in Resources */,
 				66A7A48120E4044A00D5C5C0 /* LaunchScreen.storyboard in Resources */,
 				66A7A47E20E4044A00D5C5C0 /* Assets.xcassets in Resources */,
+				66A7A4A820E419F600D5C5C0 /* Nuvo Pro - Bold Italic.otf in Resources */,
+				66A7A4A320E419F600D5C5C0 /* Nuvo Pro.otf in Resources */,
 				66A7A47C20E4044800D5C5C0 /* Main.storyboard in Resources */,
+				66A7A4A920E419F600D5C5C0 /* Nuvo Pro - Medium Italic.otf in Resources */,
+				66A7A4A220E419F600D5C5C0 /* Nuvo Pro - Medium.otf in Resources */,
+				66A7A4A420E419F600D5C5C0 /* Nuvo Pro - Extra Bold.otf in Resources */,
+				66A7A4AA20E419F600D5C5C0 /* Nuvo Pro - Black.otf in Resources */,
+				66A7A4A720E419F600D5C5C0 /* Nuvo Pro - Italic.otf in Resources */,
+				66A7A4AB20E419F600D5C5C0 /* Nuvo Pro - Extra Bold Italic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +225,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66A7A47920E4044800D5C5C0 /* ViewController.swift in Sources */,
+				66A7A47920E4044800D5C5C0 /* WelcomeVC.swift in Sources */,
+				66A7A49020E406FD00D5C5C0 /* AnswersVC.swift in Sources */,
+				66A7A49420E4073900D5C5C0 /* QuestionVC.swift in Sources */,
+				66A7A48E20E406C300D5C5C0 /* GetReadyVC.swift in Sources */,
+				66A7A49220E4071B00D5C5C0 /* FinishVC.swift in Sources */,
 				66A7A47720E4044800D5C5C0 /* AppDelegate.swift in Sources */,
+				66A7A48C20E4069D00D5C5C0 /* InstructionsVC.swift in Sources */,
+				66A7A49620E4170800D5C5C0 /* blueButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +386,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "me.adammcbride.ThinkUp-DrinkUp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,7 +404,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "me.adammcbride.ThinkUp-DrinkUp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

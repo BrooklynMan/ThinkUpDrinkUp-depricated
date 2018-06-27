@@ -28,11 +28,24 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>UIStatusBarHidden</key>
+	<true/>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Nuvo Pro.otf</string>
+		<string>Nuvo Pro - Italic.otf</string>
+		<string>Nuvo Pro - Bold.otf</string>
+		<string>Nuvo Pro - Black.otf</string>
+		<string>Nuvo Pro - Medium.otf</string>
+		<string>Nuvo Pro - Extra Bold.otf</string>
+		<string>Nuvo Pro - Bold Italic.otf</string>
+		<string>Nuvo Pro - Black Italic.otf</string>
+		<string>Nuvo Pro - Medium Italic.otf</string>
+		<string>Nuvo Pro - Extra Bold Italic.otf</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
