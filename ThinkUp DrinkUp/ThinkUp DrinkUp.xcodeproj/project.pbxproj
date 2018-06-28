@@ -17,7 +17,7 @@
 		66A7A49020E406FD00D5C5C0 /* AnswersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A7A48F20E406FD00D5C5C0 /* AnswersVC.swift */; };
 		66A7A49220E4071B00D5C5C0 /* FinishVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A7A49120E4071B00D5C5C0 /* FinishVC.swift */; };
 		66A7A49420E4073900D5C5C0 /* QuestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A7A49320E4073900D5C5C0 /* QuestionVC.swift */; };
-		66A7A49620E4170800D5C5C0 /* blueButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A7A49520E4170800D5C5C0 /* blueButton.swift */; };
+		66A7A49620E4170800D5C5C0 /* bigButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A7A49520E4170800D5C5C0 /* bigButton.swift */; };
 		66A7A4A220E419F600D5C5C0 /* Nuvo Pro - Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66A7A49820E419F500D5C5C0 /* Nuvo Pro - Medium.otf */; };
 		66A7A4A320E419F600D5C5C0 /* Nuvo Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66A7A49920E419F500D5C5C0 /* Nuvo Pro.otf */; };
 		66A7A4A420E419F600D5C5C0 /* Nuvo Pro - Extra Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66A7A49A20E419F500D5C5C0 /* Nuvo Pro - Extra Bold.otf */; };
@@ -28,6 +28,9 @@
 		66A7A4A920E419F600D5C5C0 /* Nuvo Pro - Medium Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66A7A49F20E419F600D5C5C0 /* Nuvo Pro - Medium Italic.otf */; };
 		66A7A4AA20E419F600D5C5C0 /* Nuvo Pro - Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66A7A4A020E419F600D5C5C0 /* Nuvo Pro - Black.otf */; };
 		66A7A4AB20E419F600D5C5C0 /* Nuvo Pro - Extra Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66A7A4A120E419F600D5C5C0 /* Nuvo Pro - Extra Bold Italic.otf */; };
+		66A7A4AD20E446D800D5C5C0 /* NamesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A7A4AC20E446D800D5C5C0 /* NamesVC.swift */; };
+		66A7A4AF20E554B500D5C5C0 /* playerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A7A4AE20E554B500D5C5C0 /* playerLabel.swift */; };
+		66A7A4B120E5662500D5C5C0 /* questionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A7A4B020E5662500D5C5C0 /* questionLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +46,7 @@
 		66A7A48F20E406FD00D5C5C0 /* AnswersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswersVC.swift; sourceTree = "<group>"; };
 		66A7A49120E4071B00D5C5C0 /* FinishVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishVC.swift; sourceTree = "<group>"; };
 		66A7A49320E4073900D5C5C0 /* QuestionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionVC.swift; sourceTree = "<group>"; };
-		66A7A49520E4170800D5C5C0 /* blueButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blueButton.swift; sourceTree = "<group>"; };
+		66A7A49520E4170800D5C5C0 /* bigButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bigButton.swift; sourceTree = "<group>"; };
 		66A7A49820E419F500D5C5C0 /* Nuvo Pro - Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nuvo Pro - Medium.otf"; sourceTree = "<group>"; };
 		66A7A49920E419F500D5C5C0 /* Nuvo Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nuvo Pro.otf"; sourceTree = "<group>"; };
 		66A7A49A20E419F500D5C5C0 /* Nuvo Pro - Extra Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nuvo Pro - Extra Bold.otf"; sourceTree = "<group>"; };
@@ -54,6 +57,9 @@
 		66A7A49F20E419F600D5C5C0 /* Nuvo Pro - Medium Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nuvo Pro - Medium Italic.otf"; sourceTree = "<group>"; };
 		66A7A4A020E419F600D5C5C0 /* Nuvo Pro - Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nuvo Pro - Black.otf"; sourceTree = "<group>"; };
 		66A7A4A120E419F600D5C5C0 /* Nuvo Pro - Extra Bold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nuvo Pro - Extra Bold Italic.otf"; sourceTree = "<group>"; };
+		66A7A4AC20E446D800D5C5C0 /* NamesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamesVC.swift; sourceTree = "<group>"; };
+		66A7A4AE20E554B500D5C5C0 /* playerLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playerLabel.swift; sourceTree = "<group>"; };
+		66A7A4B020E5662500D5C5C0 /* questionLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,13 +115,9 @@
 		66A7A48920E4061400D5C5C0 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				66A7A47820E4044800D5C5C0 /* WelcomeVC.swift */,
-				66A7A48B20E4069D00D5C5C0 /* InstructionsVC.swift */,
-				66A7A48D20E406C300D5C5C0 /* GetReadyVC.swift */,
-				66A7A48F20E406FD00D5C5C0 /* AnswersVC.swift */,
-				66A7A49120E4071B00D5C5C0 /* FinishVC.swift */,
-				66A7A49320E4073900D5C5C0 /* QuestionVC.swift */,
-				66A7A49520E4170800D5C5C0 /* blueButton.swift */,
+				66A7A49520E4170800D5C5C0 /* bigButton.swift */,
+				66A7A4AE20E554B500D5C5C0 /* playerLabel.swift */,
+				66A7A4B020E5662500D5C5C0 /* questionLabel.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -123,6 +125,13 @@
 		66A7A48A20E4061A00D5C5C0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				66A7A48F20E406FD00D5C5C0 /* AnswersVC.swift */,
+				66A7A49120E4071B00D5C5C0 /* FinishVC.swift */,
+				66A7A48D20E406C300D5C5C0 /* GetReadyVC.swift */,
+				66A7A48B20E4069D00D5C5C0 /* InstructionsVC.swift */,
+				66A7A4AC20E446D800D5C5C0 /* NamesVC.swift */,
+				66A7A49320E4073900D5C5C0 /* QuestionVC.swift */,
+				66A7A47820E4044800D5C5C0 /* WelcomeVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -230,9 +239,12 @@
 				66A7A49420E4073900D5C5C0 /* QuestionVC.swift in Sources */,
 				66A7A48E20E406C300D5C5C0 /* GetReadyVC.swift in Sources */,
 				66A7A49220E4071B00D5C5C0 /* FinishVC.swift in Sources */,
+				66A7A4AD20E446D800D5C5C0 /* NamesVC.swift in Sources */,
 				66A7A47720E4044800D5C5C0 /* AppDelegate.swift in Sources */,
 				66A7A48C20E4069D00D5C5C0 /* InstructionsVC.swift in Sources */,
-				66A7A49620E4170800D5C5C0 /* blueButton.swift in Sources */,
+				66A7A49620E4170800D5C5C0 /* bigButton.swift in Sources */,
+				66A7A4B120E5662500D5C5C0 /* questionLabel.swift in Sources */,
+				66A7A4AF20E554B500D5C5C0 /* playerLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

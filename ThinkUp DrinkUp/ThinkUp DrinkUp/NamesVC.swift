@@ -14,6 +14,12 @@ class NamesVC: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        // code to make the keyboard dissmissable in the player name fields
+        FirstPlayerName.delegate = self
+        SecondPlayerName.delegate = self
+        ThirdPlayerName.delegate = self
+        FourthPlayerName.delegate = self
     }
     
 
