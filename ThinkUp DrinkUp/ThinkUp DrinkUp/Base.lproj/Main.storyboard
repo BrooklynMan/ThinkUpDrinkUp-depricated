@@ -268,10 +268,19 @@ When finished, press ‘save’ to continue!</string>
                                 <state key="normal" title="PLAY!">
                                     <color key="titleColor" red="0.36074599619999997" green="0.63203537460000003" blue="0.97261911629999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <segue destination="yw4-yx-ST0" kind="show" id="1OA-oz-dsS"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PLAYER NAME" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ffo-JZ-lQL" customClass="playerLabel" customModule="ThinkUp_DrinkUp" customModuleProvider="target">
-                                <rect key="frame" x="16" y="441" width="343" height="58"/>
+                                <rect key="frame" x="9" y="402" width="343" height="58"/>
                                 <fontDescription key="fontDescription" name="NuvoPro-Xbold" family="Nuvo Pro" pointSize="45"/>
+                                <color key="textColor" red="0.95745664829999999" green="0.73148471120000003" blue="0.250605613" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ROUND: X" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BIm-BK-1rV" customClass="playerLabel" customModule="ThinkUp_DrinkUp" customModuleProvider="target">
+                                <rect key="frame" x="16" y="485" width="343" height="39"/>
+                                <fontDescription key="fontDescription" name="NuvoPro-Xbold" family="Nuvo Pro" pointSize="30"/>
                                 <color key="textColor" red="0.95745664829999999" green="0.73148471120000003" blue="0.250605613" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -284,16 +293,19 @@ When finished, press ‘save’ to continue!</string>
                             <constraint firstItem="QeD-83-AUw" firstAttribute="trailing" secondItem="tP9-Yu-Wdt" secondAttribute="trailing" constant="16" id="CQm-wL-knW"/>
                             <constraint firstItem="DoO-2l-HiR" firstAttribute="leading" secondItem="KRX-Kt-qUD" secondAttribute="leading" id="DjN-39-Ehs"/>
                             <constraint firstItem="9Sg-DY-eoF" firstAttribute="leading" secondItem="QeD-83-AUw" secondAttribute="leading" constant="35" id="EL9-6S-pT5"/>
+                            <constraint firstItem="QeD-83-AUw" firstAttribute="trailing" secondItem="Ffo-JZ-lQL" secondAttribute="trailing" constant="23" id="GIw-o0-MnG"/>
                             <constraint firstAttribute="trailing" secondItem="zuC-HW-JfV" secondAttribute="trailing" id="GhK-Uq-jKC"/>
+                            <constraint firstItem="BIm-BK-1rV" firstAttribute="top" secondItem="Ffo-JZ-lQL" secondAttribute="bottom" constant="25" id="QzY-HP-oLc"/>
+                            <constraint firstItem="Ffo-JZ-lQL" firstAttribute="leading" secondItem="QeD-83-AUw" secondAttribute="leading" constant="9" id="T5V-nG-zVw"/>
+                            <constraint firstItem="QeD-83-AUw" firstAttribute="trailing" secondItem="BIm-BK-1rV" secondAttribute="trailing" constant="16" id="VHB-cn-NEX"/>
+                            <constraint firstItem="Ffo-JZ-lQL" firstAttribute="top" secondItem="tP9-Yu-Wdt" secondAttribute="bottom" constant="42" id="Vyz-dk-9EC"/>
                             <constraint firstItem="QeD-83-AUw" firstAttribute="trailing" secondItem="Ep4-51-965" secondAttribute="trailing" constant="16" id="Ya0-7C-jcQ"/>
-                            <constraint firstItem="QeD-83-AUw" firstAttribute="trailing" secondItem="Ffo-JZ-lQL" secondAttribute="trailing" constant="16" id="Z3U-Vp-gHW"/>
                             <constraint firstItem="tP9-Yu-Wdt" firstAttribute="leading" secondItem="QeD-83-AUw" secondAttribute="leading" constant="16" id="ZG6-uo-igO"/>
                             <constraint firstItem="zuC-HW-JfV" firstAttribute="top" secondItem="KRX-Kt-qUD" secondAttribute="top" id="cVj-ua-wMK"/>
                             <constraint firstItem="QeD-83-AUw" firstAttribute="bottom" secondItem="Ep4-51-965" secondAttribute="bottom" constant="20" id="h1y-Zp-0LY"/>
                             <constraint firstItem="Ep4-51-965" firstAttribute="leading" secondItem="QeD-83-AUw" secondAttribute="leading" constant="16" id="hQe-cS-ybb"/>
+                            <constraint firstItem="BIm-BK-1rV" firstAttribute="leading" secondItem="QeD-83-AUw" secondAttribute="leading" constant="16" id="hz2-NS-scH"/>
                             <constraint firstItem="9Sg-DY-eoF" firstAttribute="top" secondItem="QeD-83-AUw" secondAttribute="top" constant="116" id="iyp-us-Rp3"/>
-                            <constraint firstItem="Ffo-JZ-lQL" firstAttribute="top" secondItem="tP9-Yu-Wdt" secondAttribute="bottom" constant="81" id="n4O-KF-iIX"/>
-                            <constraint firstItem="Ffo-JZ-lQL" firstAttribute="leading" secondItem="QeD-83-AUw" secondAttribute="leading" constant="16" id="qe0-rf-mgw"/>
                             <constraint firstItem="zuC-HW-JfV" firstAttribute="leading" secondItem="KRX-Kt-qUD" secondAttribute="leading" id="w2l-Pu-mZB"/>
                             <constraint firstItem="tP9-Yu-Wdt" firstAttribute="top" secondItem="QeD-83-AUw" secondAttribute="top" constant="76" id="wHC-xW-SJo"/>
                             <constraint firstAttribute="bottom" secondItem="DoO-2l-HiR" secondAttribute="bottom" id="xRc-XI-di3"/>
@@ -301,6 +313,11 @@ When finished, press ‘save’ to continue!</string>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="QeD-83-AUw"/>
                     </view>
+                    <connections>
+                        <outlet property="CurrentPlayerLabel" destination="Ffo-JZ-lQL" id="dL5-pe-98w"/>
+                        <outlet property="CurrentRoundNumber" destination="BIm-BK-1rV" id="8IX-qQ-s20"/>
+                        <outlet property="GRPlayButton" destination="Ep4-51-965" id="Oyi-Gp-SuP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vAo-6C-XK6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -327,32 +344,25 @@ When finished, press ‘save’ to continue!</string>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" alpha="0.75" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="textBoxMed" translatesAutoresizingMaskIntoConstraints="NO" id="kx8-gS-MrA">
-                                <rect key="frame" x="16" y="353.5" width="343" height="235"/>
+                                <rect key="frame" x="16" y="353" width="343" height="235"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="235" id="y0s-pS-pC5"/>
                                 </constraints>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="interactive" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bMN-yR-nOQ">
-                                <rect key="frame" x="36" y="387" width="303" height="179"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" keyboardDismissMode="interactive" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bMN-yR-nOQ">
+                                <rect key="frame" x="36" y="386.5" width="303" height="179"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="179" id="EDX-WM-Euk"/>
                                 </constraints>
                                 <color key="textColor" red="0.36074599619999997" green="0.63203537460000003" blue="0.97261911629999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="NuvoPro-Bold" family="Nuvo Pro" pointSize="25"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="yes" spellCheckingType="yes" returnKeyType="done" smartDashesType="yes" smartInsertDeleteType="yes" smartQuotesType="yes"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TVN-er-2I0">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YOUR ANSWER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TVN-er-2I0">
                                 <rect key="frame" x="16" y="20" width="343" height="53"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="QUESTION X">
-                                        <attributes>
-                                            <color key="NSColor" red="0.36074599619999997" green="0.63203537460000003" blue="0.97261911629999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            <font key="NSFont" size="41" name="NuvoPro-Xbold"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
+                                <fontDescription key="fontDescription" name="NuvoPro-Xbold" family="Nuvo Pro" pointSize="41"/>
+                                <color key="textColor" red="0.36074599619999997" green="0.63203537460000003" blue="0.97261911629999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q6K-EQ-5Yz" customClass="bigButton" customModule="ThinkUp_DrinkUp" customModuleProvider="target">
@@ -367,8 +377,11 @@ When finished, press ‘save’ to continue!</string>
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="CommitAnswerAndContinue:" destination="yw4-yx-ST0" eventType="touchUpInside" id="XxV-tc-dm6"/>
+                                </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nwo-9x-JZE">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" keyboardDismissMode="interactive" translatesAutoresizingMaskIntoConstraints="NO" id="Nwo-9x-JZE">
                                 <rect key="frame" x="37" y="104" width="302" height="179"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -376,11 +389,14 @@ When finished, press ‘save’ to continue!</string>
                                 </constraints>
                                 <color key="textColor" red="0.36074599619999997" green="0.63203537460000003" blue="0.97261911629999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="NuvoPro-Bold" family="Nuvo Pro" pointSize="25"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="yes" spellCheckingType="yes" returnKeyType="done" enablesReturnKeyAutomatically="YES" smartDashesType="yes" smartInsertDeleteType="yes" smartQuotesType="yes"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YOUR ANSWER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iZy-pE-XbM">
-                                <rect key="frame" x="16" y="308" width="343" height="45.5"/>
-                                <fontDescription key="fontDescription" name="NuvoPro-Xbold" family="Nuvo Pro" pointSize="35"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="QUESTION: X - ROUND: X" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iZy-pE-XbM">
+                                <rect key="frame" x="16" y="308" width="343" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="kDn-2z-Vj7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NuvoPro-Xbold" family="Nuvo Pro" pointSize="29"/>
                                 <color key="textColor" red="0.36074599619999997" green="0.63203537460000003" blue="0.97261911629999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -419,6 +435,13 @@ When finished, press ‘save’ to continue!</string>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="X2z-MO-sgB"/>
                     </view>
+                    <connections>
+                        <outlet property="PlayerAnswerBox" destination="Nwo-9x-JZE" id="HPL-rS-Xae"/>
+                        <outlet property="QuestionAndRoundLabel" destination="iZy-pE-XbM" id="1WH-tw-JTv"/>
+                        <outlet property="QuestionBox" destination="bMN-yR-nOQ" id="ekD-qf-0Xz"/>
+                        <segue destination="4td-NX-rmD" kind="show" identifier="answersVCSegue" id="VYf-ZO-eWS"/>
+                        <segue destination="tdD-k3-B8z" kind="show" identifier="getReadyVCSegue" id="U6y-sM-hLH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rUV-RH-6hs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -714,4 +737,7 @@ HAVE FUN!</string>
         <image name="textBoxSm" width="324" height="184"/>
         <image name="title" width="328" height="180"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="U6y-sM-hLH"/>
+    </inferredMetricsTieBreakers>
 </document>

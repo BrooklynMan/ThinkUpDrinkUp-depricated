@@ -18,18 +18,23 @@ class NamesVC: UIViewController, UITextFieldDelegate {
     @IBAction func CommitPlayerNamesAndContinue(_ sender: AnyObject) {
         
         // commit player names to an array
+        
+        // assigns the text filed values to a variable
         let player1 = FirstPlayerName.text
         let player2 = SecondPlayerName.text
         let player3 = ThirdPlayerName.text
         let player4 = FourthPlayerName.text
-
+        
+        // assigns those variable values to specific positions in the array
         playerNames[0] = player1!
         playerNames[1] = player2!
         playerNames[2] = player3!
         playerNames[3] = player4!
+        
+        // now we need to randomize the player name index and choose one (0) as subject, and the other 3 as players as the players.
+        
+        
     }
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()

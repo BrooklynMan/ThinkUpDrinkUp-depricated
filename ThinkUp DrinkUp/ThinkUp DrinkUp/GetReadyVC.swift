@@ -9,22 +9,21 @@
 import UIKit
 
 class GetReadyVC: UIViewController {
+    
+    @IBOutlet weak var CurrentPlayerLabel: playerLabel!
+    @IBOutlet weak var CurrentRoundNumber: playerLabel!
+    @IBOutlet weak var GRPlayButton: bigButton!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        CurrentPlayerLabel.text = playerNames[currentPlayerIndex]
+        
+        // the round number need to be converted from Int to String and set +1 due to indexing from 0
+        let thisRoundNumber = String(roundNumber + 1)
+        CurrentRoundNumber.text = "Round: " + thisRoundNumber
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
