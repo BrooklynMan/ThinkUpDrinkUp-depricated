@@ -18,7 +18,7 @@ class QuestionVC: UIViewController {
         
         // commit answer and continue
         
-        if currentPlayerIndex <= 2 {
+        if currentPlayerIndex < 3 {
             
             let answer = PlayerAnswerBox.text
             playerAnswers[currentPlayerIndex] = answer!
@@ -28,7 +28,7 @@ class QuestionVC: UIViewController {
             performSegue(withIdentifier: "getReadyVCSegue", sender: self)
         } else {
         
-            performSegue(withIdentifier: "answersVCSegue", sender: self)
+            performSegue(withIdentifier: "AnswersVCSegue", sender: self)
             
         }
     }
@@ -45,24 +45,10 @@ class QuestionVC: UIViewController {
         // populate the question box based on the round number
         QuestionBox.text = questions[roundNumber]
         
-        // code to make the keyboard dissmissable in the answerbox
-        // first, change the Return key to a Done key
-//        PlayerAnswerBox.returnKeyType = UIReturnKeyType.done
-//        PlayerAnswerBox.delegate = self as? UITextViewDelegate
-        
         // the round number  and question number need to be converted from Int to String and set +1 due to indexing from 0
         let thisRoundNumber = String(roundNumber + 1)
         let thisQuestionNumber = String(questionNumber + 1)
         QuestionAndRoundLabel.text = "Question: " + thisQuestionNumber + "Round: " + thisRoundNumber
     }
-    
-    // code to make the keyboard dissmissable in the answerbox
-    // now, we make it so when a new line is detected in the text box, the app will dismiss the keyboard instead
-//    func textView(_ PlayerAnswerBox: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {
-//        if (text == "\n") {
-//            PlayerAnswerBox.resignFirstResponder()
-//        }
-//        return true
-//    }
 
 }

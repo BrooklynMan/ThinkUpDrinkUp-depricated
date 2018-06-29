@@ -127,7 +127,7 @@
                                 </state>
                                 <connections>
                                     <action selector="CommitPlayerNamesAndContinue:" destination="mbk-Az-l8u" eventType="touchUpInside" id="BJi-xx-aIv"/>
-                                    <segue destination="tdD-k3-B8z" kind="show" id="uvv-mG-BRd"/>
+                                    <segue destination="tdD-k3-B8z" kind="show" animates="NO" id="uvv-mG-BRd"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="glasses-1" translatesAutoresizingMaskIntoConstraints="NO" id="38H-bU-Myd">
@@ -269,7 +269,7 @@ When finished, press ‘save’ to continue!</string>
                                     <color key="titleColor" red="0.36074599619999997" green="0.63203537460000003" blue="0.97261911629999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
-                                    <segue destination="yw4-yx-ST0" kind="show" id="1OA-oz-dsS"/>
+                                    <segue destination="yw4-yx-ST0" kind="show" animates="NO" id="1OA-oz-dsS"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PLAYER NAME" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ffo-JZ-lQL" customClass="playerLabel" customModule="ThinkUp_DrinkUp" customModuleProvider="target">
@@ -439,8 +439,8 @@ When finished, press ‘save’ to continue!</string>
                         <outlet property="PlayerAnswerBox" destination="Nwo-9x-JZE" id="HPL-rS-Xae"/>
                         <outlet property="QuestionAndRoundLabel" destination="iZy-pE-XbM" id="1WH-tw-JTv"/>
                         <outlet property="QuestionBox" destination="bMN-yR-nOQ" id="ekD-qf-0Xz"/>
-                        <segue destination="4td-NX-rmD" kind="show" identifier="answersVCSegue" id="VYf-ZO-eWS"/>
-                        <segue destination="tdD-k3-B8z" kind="show" identifier="getReadyVCSegue" id="U6y-sM-hLH"/>
+                        <segue destination="4td-NX-rmD" kind="show" identifier="AnswersVCSegue" animates="NO" id="VYf-ZO-eWS"/>
+                        <segue destination="tdD-k3-B8z" kind="show" identifier="getReadyVCSegue" animates="NO" id="U6y-sM-hLH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rUV-RH-6hs" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -473,39 +473,125 @@ When finished, press ‘save’ to continue!</string>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="PICKANANSWER" translatesAutoresizingMaskIntoConstraints="NO" id="tke-gB-mFZ">
                                 <rect key="frame" x="16" y="10" width="343" height="85"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" keyboardDismissMode="interactive" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Yb-Pu-m7T">
+                                <rect key="frame" x="75" y="130" width="264" height="125"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" red="0.36074599619999997" green="0.63203537460000003" blue="0.97261911629999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="NuvoPro-Bold" family="Nuvo Pro" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="yes" spellCheckingType="yes" returnKeyType="done" enablesReturnKeyAutomatically="YES" smartDashesType="yes" smartInsertDeleteType="yes" smartQuotesType="yes"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" keyboardDismissMode="interactive" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F88-Mw-xkP">
+                                <rect key="frame" x="75" y="314" width="264" height="125"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="125" id="QVW-Y1-HoG"/>
+                                </constraints>
+                                <color key="textColor" red="0.36074599619999997" green="0.63203537460000003" blue="0.97261911629999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="NuvoPro-Bold" family="Nuvo Pro" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="yes" spellCheckingType="yes" returnKeyType="done" enablesReturnKeyAutomatically="YES" smartDashesType="yes" smartInsertDeleteType="yes" smartQuotesType="yes"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" keyboardDismissMode="interactive" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gII-m9-b2A">
+                                <rect key="frame" x="75" y="498" width="264" height="125"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" red="0.36074599619999997" green="0.63203537460000003" blue="0.97261911629999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="NuvoPro-Bold" family="Nuvo Pro" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="yes" spellCheckingType="yes" returnKeyType="done" enablesReturnKeyAutomatically="YES" smartDashesType="yes" smartInsertDeleteType="yes" smartQuotesType="yes"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kgp-co-CQp">
+                                <rect key="frame" x="16" y="103" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="L2J-WK-XCG"/>
+                                    <constraint firstAttribute="height" constant="75" id="ofA-Yd-eDC"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="martiniButton"/>
+                                <connections>
+                                    <action selector="AnswerButton1:" destination="4td-NX-rmD" eventType="touchUpInside" id="Bsc-6F-1NV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lI7-L0-NbG">
+                                <rect key="frame" x="16" y="471" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="g9M-bG-sp7"/>
+                                    <constraint firstAttribute="height" constant="75" id="v2Y-w0-O9c"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="martiniButton"/>
+                                <connections>
+                                    <action selector="AnswerButton3:" destination="4td-NX-rmD" eventType="touchUpInside" id="voW-u7-tjm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TGF-qt-Rtf">
+                                <rect key="frame" x="16" y="287" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="9nn-rI-cRJ"/>
+                                    <constraint firstAttribute="width" constant="75" id="i6S-pe-a8h"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="martiniButton"/>
+                                <connections>
+                                    <action selector="AnswerButton2:" destination="4td-NX-rmD" eventType="touchUpInside" id="WvA-5p-dmw"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="zeT-Di-8BO" firstAttribute="trailing" secondItem="tke-gB-mFZ" secondAttribute="trailing" constant="16" id="4CX-UJ-8Bc"/>
+                            <constraint firstItem="zeT-Di-8BO" firstAttribute="bottom" secondItem="gII-m9-b2A" secondAttribute="bottom" constant="44" id="4xw-zj-zuu"/>
+                            <constraint firstItem="zeT-Di-8BO" firstAttribute="trailing" secondItem="gII-m9-b2A" secondAttribute="trailing" constant="36" id="5Al-Rj-s8Y"/>
                             <constraint firstItem="1Jl-UW-daR" firstAttribute="leading" secondItem="HBC-ZK-79N" secondAttribute="leading" id="6cG-5o-bjD"/>
+                            <constraint firstItem="exE-1V-yJv" firstAttribute="top" secondItem="3Yb-Pu-m7T" secondAttribute="bottom" constant="24" id="6pA-nq-BoU"/>
                             <constraint firstItem="1hU-Uc-rpR" firstAttribute="leading" secondItem="zeT-Di-8BO" secondAttribute="leading" constant="16" id="79Q-uf-cWt"/>
+                            <constraint firstItem="3Yb-Pu-m7T" firstAttribute="top" secondItem="tke-gB-mFZ" secondAttribute="bottom" constant="35" id="CMc-Wc-gK9"/>
+                            <constraint firstItem="Kgp-co-CQp" firstAttribute="leading" secondItem="zeT-Di-8BO" secondAttribute="leading" constant="16" id="Ca2-pJ-otm"/>
                             <constraint firstAttribute="bottom" secondItem="6Az-sd-4ue" secondAttribute="bottom" id="HvZ-Su-A5u"/>
                             <constraint firstItem="TvV-qe-c18" firstAttribute="leading" secondItem="zeT-Di-8BO" secondAttribute="leading" constant="16" id="K8d-45-anO"/>
                             <constraint firstItem="tke-gB-mFZ" firstAttribute="top" secondItem="HBC-ZK-79N" secondAttribute="top" constant="10" id="Krf-tb-pAs"/>
+                            <constraint firstItem="zeT-Di-8BO" firstAttribute="trailing" secondItem="F88-Mw-xkP" secondAttribute="trailing" constant="36" id="LAn-bR-QK4"/>
                             <constraint firstItem="zeT-Di-8BO" firstAttribute="trailing" secondItem="1hU-Uc-rpR" secondAttribute="trailing" constant="16" id="Mab-5a-bPH"/>
+                            <constraint firstItem="F88-Mw-xkP" firstAttribute="leading" secondItem="zeT-Di-8BO" secondAttribute="leading" constant="75" id="O7s-On-kOG"/>
                             <constraint firstItem="exE-1V-yJv" firstAttribute="top" secondItem="TvV-qe-c18" secondAttribute="bottom" id="OIc-Wj-23g"/>
+                            <constraint firstItem="zeT-Di-8BO" firstAttribute="trailing" secondItem="3Yb-Pu-m7T" secondAttribute="trailing" constant="36" id="PD1-3T-VWe"/>
+                            <constraint firstItem="TGF-qt-Rtf" firstAttribute="leading" secondItem="zeT-Di-8BO" secondAttribute="leading" constant="16" id="Pf9-ox-6FD"/>
+                            <constraint firstItem="gII-m9-b2A" firstAttribute="top" secondItem="F88-Mw-xkP" secondAttribute="bottom" constant="59" id="Ptj-YJ-6Pl"/>
+                            <constraint firstItem="zeT-Di-8BO" firstAttribute="bottom" secondItem="lI7-L0-NbG" secondAttribute="bottom" constant="121" id="T3E-CP-Jir"/>
+                            <constraint firstItem="1hU-Uc-rpR" firstAttribute="top" secondItem="TGF-qt-Rtf" secondAttribute="bottom" constant="101" id="XIs-wg-WfF"/>
                             <constraint firstItem="1hU-Uc-rpR" firstAttribute="top" secondItem="exE-1V-yJv" secondAttribute="bottom" id="XPR-ml-d8l"/>
                             <constraint firstItem="exE-1V-yJv" firstAttribute="leading" secondItem="zeT-Di-8BO" secondAttribute="leading" constant="16" id="b4m-k7-FKS"/>
                             <constraint firstAttribute="trailing" secondItem="6Az-sd-4ue" secondAttribute="trailing" id="bpw-04-YNz"/>
+                            <constraint firstItem="lI7-L0-NbG" firstAttribute="leading" secondItem="zeT-Di-8BO" secondAttribute="leading" constant="16" id="cBk-PD-wdu"/>
                             <constraint firstItem="6Az-sd-4ue" firstAttribute="leading" secondItem="HBC-ZK-79N" secondAttribute="leading" id="drS-6e-yfN"/>
+                            <constraint firstItem="3Yb-Pu-m7T" firstAttribute="leading" secondItem="zeT-Di-8BO" secondAttribute="leading" constant="75" id="e2r-O5-5Tb"/>
+                            <constraint firstItem="gII-m9-b2A" firstAttribute="leading" secondItem="zeT-Di-8BO" secondAttribute="leading" constant="75" id="fHs-jV-pgf"/>
                             <constraint firstItem="1hU-Uc-rpR" firstAttribute="leading" secondItem="zeT-Di-8BO" secondAttribute="leading" constant="16" id="gGB-dE-atM"/>
                             <constraint firstItem="zeT-Di-8BO" firstAttribute="trailing" secondItem="TvV-qe-c18" secondAttribute="trailing" constant="16" id="hsm-OK-vTW"/>
                             <constraint firstItem="zeT-Di-8BO" firstAttribute="bottom" secondItem="1hU-Uc-rpR" secondAttribute="bottom" constant="20" id="jGv-fF-edb"/>
                             <constraint firstAttribute="bottom" secondItem="1Jl-UW-daR" secondAttribute="bottom" id="kdw-19-W9V"/>
+                            <constraint firstItem="lI7-L0-NbG" firstAttribute="top" secondItem="exE-1V-yJv" secondAttribute="bottom" constant="8" id="m4w-pU-qrg"/>
                             <constraint firstItem="zeT-Di-8BO" firstAttribute="trailing" secondItem="exE-1V-yJv" secondAttribute="trailing" constant="16" id="n1k-dR-M4x"/>
+                            <constraint firstItem="Kgp-co-CQp" firstAttribute="top" secondItem="tke-gB-mFZ" secondAttribute="bottom" constant="8" id="pHa-rb-dQ3"/>
                             <constraint firstItem="zeT-Di-8BO" firstAttribute="bottom" secondItem="1hU-Uc-rpR" secondAttribute="bottom" constant="20" id="phL-ok-qpY"/>
                             <constraint firstItem="zeT-Di-8BO" firstAttribute="trailing" secondItem="1hU-Uc-rpR" secondAttribute="trailing" constant="16" id="pq1-Ny-oYT"/>
                             <constraint firstItem="6Az-sd-4ue" firstAttribute="top" secondItem="HBC-ZK-79N" secondAttribute="top" id="puV-hf-MlZ"/>
+                            <constraint firstItem="TGF-qt-Rtf" firstAttribute="top" secondItem="TvV-qe-c18" secondAttribute="bottom" constant="8" id="rjW-FE-MDx"/>
+                            <constraint firstItem="1hU-Uc-rpR" firstAttribute="top" secondItem="F88-Mw-xkP" secondAttribute="bottom" constant="24" id="ugq-7a-gwM"/>
                             <constraint firstItem="TvV-qe-c18" firstAttribute="top" secondItem="tke-gB-mFZ" secondAttribute="bottom" id="vCb-8u-jC6"/>
                             <constraint firstItem="tke-gB-mFZ" firstAttribute="leading" secondItem="zeT-Di-8BO" secondAttribute="leading" constant="16" id="w2H-ps-8N7"/>
                             <constraint firstAttribute="trailing" secondItem="1Jl-UW-daR" secondAttribute="trailing" id="xsg-5b-1f0"/>
+                            <constraint firstItem="exE-1V-yJv" firstAttribute="top" secondItem="Kgp-co-CQp" secondAttribute="bottom" constant="101" id="zRa-Qo-jXA"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="zeT-Di-8BO"/>
                     </view>
+                    <connections>
+                        <outlet property="AnswerBoxText1" destination="3Yb-Pu-m7T" id="6VB-rv-6tf"/>
+                        <outlet property="AnswerBoxText2" destination="F88-Mw-xkP" id="0s5-Yg-sK6"/>
+                        <outlet property="AnswerBoxText3" destination="gII-m9-b2A" id="bN3-QZ-lVY"/>
+                        <outlet property="AnswerTextButton1" destination="3Yb-Pu-m7T" id="rcy-MS-JNm"/>
+                        <outlet property="AnswerTextButton2" destination="F88-Mw-xkP" id="0TW-Wx-uzO"/>
+                        <outlet property="AnswerTextButton3" destination="gII-m9-b2A" id="tes-Fg-ltg"/>
+                        <segue destination="XuL-xI-ADI" kind="show" identifier="FinishVCSegue" animates="NO" id="LvV-yv-xij"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BEE-34-kTH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1538.4000000000001" y="1454.9261083743843"/>
+            <point key="canvasLocation" x="1538.4000000000001" y="1454.1229385307347"/>
         </scene>
         <!--FinishVC-->
         <scene sceneID="oUJ-Sd-8Sv">
@@ -550,6 +636,9 @@ When finished, press ‘save’ to continue!</string>
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="NewGameButton:" destination="XuL-xI-ADI" eventType="touchUpInside" id="Wzl-xd-U4A"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rUj-Xi-aYg" customClass="bigButton" customModule="ThinkUp_DrinkUp" customModuleProvider="target">
                                 <rect key="frame" x="16" y="539" width="343" height="50"/>
@@ -562,6 +651,9 @@ When finished, press ‘save’ to continue!</string>
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="PlayAgainButton:" destination="XuL-xI-ADI" eventType="touchUpInside" id="WfT-5W-ebn"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="TAKEADRINK!" translatesAutoresizingMaskIntoConstraints="NO" id="VFW-au-6hz">
                                 <rect key="frame" x="72.5" y="379.33333333333331" width="230" height="120"/>
@@ -619,6 +711,10 @@ When finished, press ‘save’ to continue!</string>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="vE1-vG-LWa"/>
                     </view>
+                    <connections>
+                        <outlet property="CurrentRoundNumber" destination="gIf-iM-8fc" id="JBe-jW-Oe1"/>
+                        <outlet property="WinningPlayer" destination="3Qn-L9-EDe" id="3nd-KD-YGc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uJz-t8-1N4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -733,6 +829,7 @@ HAVE FUN!</string>
         <image name="background-shot-iPhone-Plus" width="414" height="736"/>
         <image name="bubbles" width="312" height="512"/>
         <image name="glasses-1" width="324" height="450"/>
+        <image name="martiniButton" width="181" height="181"/>
         <image name="textBoxMed" width="324" height="264"/>
         <image name="textBoxSm" width="324" height="184"/>
         <image name="title" width="328" height="180"/>
