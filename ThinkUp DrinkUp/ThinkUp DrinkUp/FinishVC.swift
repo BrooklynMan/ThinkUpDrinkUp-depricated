@@ -24,6 +24,9 @@ class FinishVC: UIViewController {
         playerNames[2] = playerNames[3]
         playerNames[3] = retainer
         
+        // set the subject to the next player after the shift
+        currentSubject = String(playerNames[0])
+
         // reset player and subject index references
         currentPlayerIndex = 1
         
@@ -66,6 +69,15 @@ class FinishVC: UIViewController {
         CurrentRoundNumber.text = "Round: " + thisRoundNumber
         
     }
-    
+
+    /*
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+     // Get the new view controller using segue.destinationViewController.
+     // Pass the selected object to the new view controller.
+     }
+     */
 
 }
