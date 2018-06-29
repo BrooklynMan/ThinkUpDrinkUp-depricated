@@ -48,9 +48,9 @@ class AnswersVC: UIViewController {
         // Do any additional setup after loading the view.
         
         // populate the text fields with the given answers fromt he previous screens
-        AnswerBoxText1.text = playerAnswers[0]
-        AnswerBoxText2.text = playerAnswers[1]
-        AnswerBoxText3.text = playerAnswers[2]
+        AnswerBoxText1.text = playerAnswers[1]
+        AnswerBoxText2.text = playerAnswers[2]
+        AnswerBoxText3.text = playerAnswers[3]
     }
 
 }

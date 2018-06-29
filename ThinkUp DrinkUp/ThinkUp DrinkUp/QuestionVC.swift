@@ -20,14 +20,22 @@ class QuestionVC: UIViewController {
         
         if currentPlayerIndex < 3 {
             
+            // submit the answer given to the answers array, then incriment the current player index before returning to the staging screen. repeat this twice, for all 3 players answering questions
             let answer = PlayerAnswerBox.text
             playerAnswers[currentPlayerIndex] = answer!
             
             currentPlayerIndex += 1
             
+            // return to the staging screen for the next player to answer
             performSegue(withIdentifier: "getReadyVCSegue", sender: self)
+            
         } else {
-        
+            
+            // submit final the answer given to the answers array, then continue to the answer picker screen
+            let answer = PlayerAnswerBox.text
+            playerAnswers[currentPlayerIndex] = answer!
+            
+            // if all players have answered, go to the answer picker screen
             performSegue(withIdentifier: "AnswersVCSegue", sender: self)
             
         }

@@ -24,6 +24,10 @@ class FinishVC: UIViewController {
         playerNames[2] = playerNames[3]
         playerNames[3] = retainer
         
+        // reset player and subject index references
+        currentPlayerIndex = 1
+        
+        performSegue(withIdentifier: "PlayAgainGRSegue", sender: self)
     }
     
     @IBAction func NewGameButton(_ sender: Any) {
@@ -38,6 +42,10 @@ class FinishVC: UIViewController {
         //reset round number
         roundNumber = 0
         
+        // reset player and subject index references
+        currentPlayerIndex = 1
+        
+        performSegue(withIdentifier: "StartOverVCSegue", sender: self)
     }
     
     override func viewDidLoad() {

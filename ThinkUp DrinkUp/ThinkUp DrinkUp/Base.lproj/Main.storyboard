@@ -439,8 +439,8 @@ When finished, press ‘save’ to continue!</string>
                         <outlet property="PlayerAnswerBox" destination="Nwo-9x-JZE" id="HPL-rS-Xae"/>
                         <outlet property="QuestionAndRoundLabel" destination="iZy-pE-XbM" id="1WH-tw-JTv"/>
                         <outlet property="QuestionBox" destination="bMN-yR-nOQ" id="ekD-qf-0Xz"/>
-                        <segue destination="4td-NX-rmD" kind="show" identifier="AnswersVCSegue" animates="NO" id="VYf-ZO-eWS"/>
                         <segue destination="tdD-k3-B8z" kind="show" identifier="getReadyVCSegue" animates="NO" id="U6y-sM-hLH"/>
+                        <segue destination="4td-NX-rmD" kind="show" identifier="AnswersVCSegue" animates="NO" id="C6B-R8-dxf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rUV-RH-6hs" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -583,9 +583,6 @@ When finished, press ‘save’ to continue!</string>
                         <outlet property="AnswerBoxText1" destination="3Yb-Pu-m7T" id="6VB-rv-6tf"/>
                         <outlet property="AnswerBoxText2" destination="F88-Mw-xkP" id="0s5-Yg-sK6"/>
                         <outlet property="AnswerBoxText3" destination="gII-m9-b2A" id="bN3-QZ-lVY"/>
-                        <outlet property="AnswerTextButton1" destination="3Yb-Pu-m7T" id="rcy-MS-JNm"/>
-                        <outlet property="AnswerTextButton2" destination="F88-Mw-xkP" id="0TW-Wx-uzO"/>
-                        <outlet property="AnswerTextButton3" destination="gII-m9-b2A" id="tes-Fg-ltg"/>
                         <segue destination="XuL-xI-ADI" kind="show" identifier="FinishVCSegue" animates="NO" id="LvV-yv-xij"/>
                     </connections>
                 </viewController>
@@ -619,8 +616,8 @@ When finished, press ‘save’ to continue!</string>
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="450" id="EoC-dv-6UT"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="YOUWIN!" translatesAutoresizingMaskIntoConstraints="NO" id="lLi-Hx-IfY">
-                                <rect key="frame" x="36.5" y="90" width="302" height="225"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="YOUWIN!" translatesAutoresizingMaskIntoConstraints="NO" id="lLi-Hx-IfY">
+                                <rect key="frame" x="37" y="90" width="301" height="225"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="225" id="kQy-pa-rqr"/>
                                 </constraints>
@@ -655,14 +652,15 @@ When finished, press ‘save’ to continue!</string>
                                     <action selector="PlayAgainButton:" destination="XuL-xI-ADI" eventType="touchUpInside" id="WfT-5W-ebn"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="TAKEADRINK!" translatesAutoresizingMaskIntoConstraints="NO" id="VFW-au-6hz">
-                                <rect key="frame" x="72.5" y="379.33333333333331" width="230" height="120"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TAKEADRINK!" translatesAutoresizingMaskIntoConstraints="NO" id="VFW-au-6hz">
+                                <rect key="frame" x="73" y="379" width="229" height="120"/>
                                 <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="Z2L-qo-2k9"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="120" id="fWv-t4-miF"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="PLAYER NAME" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Qn-L9-EDe">
-                                <rect key="frame" x="37.5" y="320" width="300" height="45.666666666666686"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PLAYER NAME" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Qn-L9-EDe">
+                                <rect key="frame" x="37" y="320" width="301" height="46"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="QPX-nX-yrZ"/>
                                 </constraints>
@@ -671,7 +669,7 @@ When finished, press ‘save’ to continue!</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ROUND X" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gIf-iM-8fc">
-                                <rect key="frame" x="16" y="20" width="343" height="45.5"/>
+                                <rect key="frame" x="16" y="20" width="343" height="46"/>
                                 <fontDescription key="fontDescription" name="NuvoPro-Xbold" family="Nuvo Pro" pointSize="35"/>
                                 <color key="textColor" red="0.95745664829999999" green="0.73148471120000003" blue="0.250605613" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -689,14 +687,15 @@ When finished, press ‘save’ to continue!</string>
                             <constraint firstItem="Ap2-tf-DwT" firstAttribute="top" secondItem="n7f-rV-g9Z" secondAttribute="top" id="AVa-Jh-B06"/>
                             <constraint firstItem="Iq1-af-gkv" firstAttribute="leading" secondItem="n7f-rV-g9Z" secondAttribute="leading" id="Edh-et-3g4"/>
                             <constraint firstItem="Ap2-tf-DwT" firstAttribute="leading" secondItem="n7f-rV-g9Z" secondAttribute="leading" id="FZw-mw-yMq"/>
+                            <constraint firstItem="lLi-Hx-IfY" firstAttribute="top" secondItem="gIf-iM-8fc" secondAttribute="bottom" constant="24" id="FmZ-qD-3qj"/>
                             <constraint firstItem="3Qn-L9-EDe" firstAttribute="centerX" secondItem="n7f-rV-g9Z" secondAttribute="centerX" id="GQR-d4-9Zw"/>
                             <constraint firstItem="gIf-iM-8fc" firstAttribute="leading" secondItem="vE1-vG-LWa" secondAttribute="leading" constant="16" id="IjB-Bs-CfE"/>
+                            <constraint firstItem="VFW-au-6hz" firstAttribute="leading" secondItem="vE1-vG-LWa" secondAttribute="leading" constant="73" id="Kyz-f0-2IH"/>
                             <constraint firstItem="g14-uN-fQW" firstAttribute="centerX" secondItem="n7f-rV-g9Z" secondAttribute="centerX" id="SBG-60-SfQ"/>
                             <constraint firstAttribute="bottom" secondItem="Iq1-af-gkv" secondAttribute="bottom" id="TSQ-gC-7Qw"/>
                             <constraint firstItem="rUj-Xi-aYg" firstAttribute="leading" secondItem="vE1-vG-LWa" secondAttribute="leading" constant="16" id="VAT-of-iVJ"/>
                             <constraint firstItem="vE1-vG-LWa" firstAttribute="trailing" secondItem="gIf-iM-8fc" secondAttribute="trailing" constant="16" id="fkP-dF-CrC"/>
                             <constraint firstItem="lLi-Hx-IfY" firstAttribute="centerX" secondItem="n7f-rV-g9Z" secondAttribute="centerX" id="flX-Cv-4jL"/>
-                            <constraint firstItem="lLi-Hx-IfY" firstAttribute="top" relation="greaterThanOrEqual" secondItem="mS0-6a-RYR" secondAttribute="top" constant="10" id="fm0-3e-QJc"/>
                             <constraint firstItem="Iq1-af-gkv" firstAttribute="top" secondItem="n7f-rV-g9Z" secondAttribute="top" id="gp1-vM-own"/>
                             <constraint firstItem="mS0-6a-RYR" firstAttribute="leading" secondItem="vE1-vG-LWa" secondAttribute="leading" constant="16" id="jWL-Hc-zXG"/>
                             <constraint firstItem="gIf-iM-8fc" firstAttribute="top" secondItem="vE1-vG-LWa" secondAttribute="top" id="kPt-Bn-9DB"/>
@@ -707,6 +706,8 @@ When finished, press ‘save’ to continue!</string>
                             <constraint firstItem="3Qn-L9-EDe" firstAttribute="top" secondItem="lLi-Hx-IfY" secondAttribute="bottom" constant="5" id="v17-cc-LMz"/>
                             <constraint firstAttribute="trailing" secondItem="Iq1-af-gkv" secondAttribute="trailing" id="vzy-lW-LT2"/>
                             <constraint firstItem="g14-uN-fQW" firstAttribute="centerY" secondItem="n7f-rV-g9Z" secondAttribute="centerY" id="wPd-5i-Han"/>
+                            <constraint firstItem="vE1-vG-LWa" firstAttribute="trailing" secondItem="3Qn-L9-EDe" secondAttribute="trailing" constant="37" id="xQG-BQ-pfS"/>
+                            <constraint firstItem="lLi-Hx-IfY" firstAttribute="leading" secondItem="vE1-vG-LWa" secondAttribute="leading" constant="37" id="yA9-nb-INY"/>
                             <constraint firstItem="vE1-vG-LWa" firstAttribute="trailing" secondItem="JLa-3Z-xgX" secondAttribute="trailing" constant="16" id="zAD-UG-bDb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="vE1-vG-LWa"/>
@@ -714,6 +715,8 @@ When finished, press ‘save’ to continue!</string>
                     <connections>
                         <outlet property="CurrentRoundNumber" destination="gIf-iM-8fc" id="JBe-jW-Oe1"/>
                         <outlet property="WinningPlayer" destination="3Qn-L9-EDe" id="3nd-KD-YGc"/>
+                        <segue destination="tdD-k3-B8z" kind="show" identifier="PlayAgainGRSegue" animates="NO" id="0MP-mM-6CF"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="StartOverVCSegue" id="8wq-57-UTW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uJz-t8-1N4" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -835,6 +838,7 @@ HAVE FUN!</string>
         <image name="title" width="328" height="180"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="U6y-sM-hLH"/>
+        <segue reference="0MP-mM-6CF"/>
+        <segue reference="8wq-57-UTW"/>
     </inferredMetricsTieBreakers>
 </document>
