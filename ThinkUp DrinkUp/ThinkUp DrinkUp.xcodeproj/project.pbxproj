@@ -7,61 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		665962D620EC1E40000CD3FA /* playerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665962D520EC1E40000CD3FA /* playerData.swift */; };
+		665962E220EC1FFD000CD3FA /* Nuvo Pro - Extra Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 665962D920EC1FFC000CD3FA /* Nuvo Pro - Extra Bold.otf */; };
+		665962E320EC1FFD000CD3FA /* Nuvo Pro - Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 665962DA20EC1FFC000CD3FA /* Nuvo Pro - Bold Italic.otf */; };
+		665962E420EC1FFD000CD3FA /* Nuvo Pro - Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 665962DB20EC1FFC000CD3FA /* Nuvo Pro - Medium.otf */; };
+		665962E520EC1FFD000CD3FA /* Nuvo Pro - Medium Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 665962DC20EC1FFC000CD3FA /* Nuvo Pro - Medium Italic.otf */; };
+		665962E620EC1FFD000CD3FA /* Nuvo Pro - Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 665962DD20EC1FFC000CD3FA /* Nuvo Pro - Bold.otf */; };
+		665962E720EC1FFD000CD3FA /* Nuvo Pro - Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 665962DE20EC1FFC000CD3FA /* Nuvo Pro - Italic.otf */; };
+		665962E820EC1FFD000CD3FA /* Nuvo Pro - Extra Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 665962DF20EC1FFD000CD3FA /* Nuvo Pro - Extra Bold Italic.otf */; };
+		665962E920EC1FFD000CD3FA /* Nuvo Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 665962E020EC1FFD000CD3FA /* Nuvo Pro.otf */; };
+		665962EA20EC1FFD000CD3FA /* Nuvo Pro - Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 665962E120EC1FFD000CD3FA /* Nuvo Pro - Black.otf */; };
+		665962F220EC2074000CD3FA /* NamesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665962EB20EC2074000CD3FA /* NamesVC.swift */; };
+		665962F320EC2074000CD3FA /* QuestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665962EC20EC2074000CD3FA /* QuestionVC.swift */; };
+		665962F420EC2074000CD3FA /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665962ED20EC2074000CD3FA /* WelcomeVC.swift */; };
+		665962F520EC2074000CD3FA /* FinishVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665962EE20EC2074000CD3FA /* FinishVC.swift */; };
+		665962F620EC2074000CD3FA /* InstructionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665962EF20EC2074000CD3FA /* InstructionsVC.swift */; };
+		665962F720EC2074000CD3FA /* AnswersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665962F020EC2074000CD3FA /* AnswersVC.swift */; };
+		665962F820EC2074000CD3FA /* GetReadyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665962F120EC2074000CD3FA /* GetReadyVC.swift */; };
+		665962FC20EC2083000CD3FA /* bigButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665962F920EC2082000CD3FA /* bigButton.swift */; };
+		665962FD20EC2083000CD3FA /* playerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665962FA20EC2083000CD3FA /* playerLabel.swift */; };
+		665962FE20EC2083000CD3FA /* questionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665962FB20EC2083000CD3FA /* questionLabel.swift */; };
 		66A7A47720E4044800D5C5C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A7A47620E4044800D5C5C0 /* AppDelegate.swift */; };
-		66A7A47920E4044800D5C5C0 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A7A47820E4044800D5C5C0 /* WelcomeVC.swift */; };
 		66A7A47C20E4044800D5C5C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66A7A47A20E4044800D5C5C0 /* Main.storyboard */; };
 		66A7A47E20E4044A00D5C5C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66A7A47D20E4044A00D5C5C0 /* Assets.xcassets */; };
 		66A7A48120E4044A00D5C5C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66A7A47F20E4044A00D5C5C0 /* LaunchScreen.storyboard */; };
-		66A7A48C20E4069D00D5C5C0 /* InstructionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A7A48B20E4069D00D5C5C0 /* InstructionsVC.swift */; };
-		66A7A48E20E406C300D5C5C0 /* GetReadyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A7A48D20E406C300D5C5C0 /* GetReadyVC.swift */; };
-		66A7A49020E406FD00D5C5C0 /* AnswersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A7A48F20E406FD00D5C5C0 /* AnswersVC.swift */; };
-		66A7A49220E4071B00D5C5C0 /* FinishVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A7A49120E4071B00D5C5C0 /* FinishVC.swift */; };
-		66A7A49420E4073900D5C5C0 /* QuestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A7A49320E4073900D5C5C0 /* QuestionVC.swift */; };
-		66A7A49620E4170800D5C5C0 /* bigButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A7A49520E4170800D5C5C0 /* bigButton.swift */; };
-		66A7A4A220E419F600D5C5C0 /* Nuvo Pro - Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66A7A49820E419F500D5C5C0 /* Nuvo Pro - Medium.otf */; };
-		66A7A4A320E419F600D5C5C0 /* Nuvo Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66A7A49920E419F500D5C5C0 /* Nuvo Pro.otf */; };
-		66A7A4A420E419F600D5C5C0 /* Nuvo Pro - Extra Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66A7A49A20E419F500D5C5C0 /* Nuvo Pro - Extra Bold.otf */; };
-		66A7A4A520E419F600D5C5C0 /* Nuvo Pro - Black Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66A7A49B20E419F500D5C5C0 /* Nuvo Pro - Black Italic.otf */; };
-		66A7A4A620E419F600D5C5C0 /* Nuvo Pro - Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66A7A49C20E419F500D5C5C0 /* Nuvo Pro - Bold.otf */; };
-		66A7A4A720E419F600D5C5C0 /* Nuvo Pro - Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66A7A49D20E419F500D5C5C0 /* Nuvo Pro - Italic.otf */; };
-		66A7A4A820E419F600D5C5C0 /* Nuvo Pro - Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66A7A49E20E419F500D5C5C0 /* Nuvo Pro - Bold Italic.otf */; };
-		66A7A4A920E419F600D5C5C0 /* Nuvo Pro - Medium Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66A7A49F20E419F600D5C5C0 /* Nuvo Pro - Medium Italic.otf */; };
-		66A7A4AA20E419F600D5C5C0 /* Nuvo Pro - Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66A7A4A020E419F600D5C5C0 /* Nuvo Pro - Black.otf */; };
-		66A7A4AB20E419F600D5C5C0 /* Nuvo Pro - Extra Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66A7A4A120E419F600D5C5C0 /* Nuvo Pro - Extra Bold Italic.otf */; };
-		66A7A4AD20E446D800D5C5C0 /* NamesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A7A4AC20E446D800D5C5C0 /* NamesVC.swift */; };
-		66A7A4AF20E554B500D5C5C0 /* playerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A7A4AE20E554B500D5C5C0 /* playerLabel.swift */; };
-		66A7A4B120E5662500D5C5C0 /* questionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A7A4B020E5662500D5C5C0 /* questionLabel.swift */; };
 		66A7A4B320E593FC00D5C5C0 /* DataModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A7A4B220E593FC00D5C5C0 /* DataModule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		665962D520EC1E40000CD3FA /* playerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = playerData.swift; path = model/playerData.swift; sourceTree = "<group>"; };
+		665962D920EC1FFC000CD3FA /* Nuvo Pro - Extra Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nuvo Pro - Extra Bold.otf"; path = "fonts/Nuvo Pro - Extra Bold.otf"; sourceTree = "<group>"; };
+		665962DA20EC1FFC000CD3FA /* Nuvo Pro - Bold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nuvo Pro - Bold Italic.otf"; path = "fonts/Nuvo Pro - Bold Italic.otf"; sourceTree = "<group>"; };
+		665962DB20EC1FFC000CD3FA /* Nuvo Pro - Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nuvo Pro - Medium.otf"; path = "fonts/Nuvo Pro - Medium.otf"; sourceTree = "<group>"; };
+		665962DC20EC1FFC000CD3FA /* Nuvo Pro - Medium Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nuvo Pro - Medium Italic.otf"; path = "fonts/Nuvo Pro - Medium Italic.otf"; sourceTree = "<group>"; };
+		665962DD20EC1FFC000CD3FA /* Nuvo Pro - Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nuvo Pro - Bold.otf"; path = "fonts/Nuvo Pro - Bold.otf"; sourceTree = "<group>"; };
+		665962DE20EC1FFC000CD3FA /* Nuvo Pro - Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nuvo Pro - Italic.otf"; path = "fonts/Nuvo Pro - Italic.otf"; sourceTree = "<group>"; };
+		665962DF20EC1FFD000CD3FA /* Nuvo Pro - Extra Bold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nuvo Pro - Extra Bold Italic.otf"; path = "fonts/Nuvo Pro - Extra Bold Italic.otf"; sourceTree = "<group>"; };
+		665962E020EC1FFD000CD3FA /* Nuvo Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nuvo Pro.otf"; path = "fonts/Nuvo Pro.otf"; sourceTree = "<group>"; };
+		665962E120EC1FFD000CD3FA /* Nuvo Pro - Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nuvo Pro - Black.otf"; path = "fonts/Nuvo Pro - Black.otf"; sourceTree = "<group>"; };
+		665962EB20EC2074000CD3FA /* NamesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NamesVC.swift; path = controller/NamesVC.swift; sourceTree = "<group>"; };
+		665962EC20EC2074000CD3FA /* QuestionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuestionVC.swift; path = controller/QuestionVC.swift; sourceTree = "<group>"; };
+		665962ED20EC2074000CD3FA /* WelcomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WelcomeVC.swift; path = controller/WelcomeVC.swift; sourceTree = "<group>"; };
+		665962EE20EC2074000CD3FA /* FinishVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FinishVC.swift; path = controller/FinishVC.swift; sourceTree = "<group>"; };
+		665962EF20EC2074000CD3FA /* InstructionsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InstructionsVC.swift; path = controller/InstructionsVC.swift; sourceTree = "<group>"; };
+		665962F020EC2074000CD3FA /* AnswersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnswersVC.swift; path = controller/AnswersVC.swift; sourceTree = "<group>"; };
+		665962F120EC2074000CD3FA /* GetReadyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetReadyVC.swift; path = controller/GetReadyVC.swift; sourceTree = "<group>"; };
+		665962F920EC2082000CD3FA /* bigButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = bigButton.swift; path = view/bigButton.swift; sourceTree = "<group>"; };
+		665962FA20EC2083000CD3FA /* playerLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = playerLabel.swift; path = view/playerLabel.swift; sourceTree = "<group>"; };
+		665962FB20EC2083000CD3FA /* questionLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = questionLabel.swift; path = view/questionLabel.swift; sourceTree = "<group>"; };
 		66A7A47320E4044800D5C5C0 /* ThinkUp DrinkUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ThinkUp DrinkUp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66A7A47620E4044800D5C5C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		66A7A47820E4044800D5C5C0 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
 		66A7A47B20E4044800D5C5C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		66A7A47D20E4044A00D5C5C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66A7A48020E4044A00D5C5C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66A7A48220E4044A00D5C5C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		66A7A48B20E4069D00D5C5C0 /* InstructionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsVC.swift; sourceTree = "<group>"; };
-		66A7A48D20E406C300D5C5C0 /* GetReadyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetReadyVC.swift; sourceTree = "<group>"; };
-		66A7A48F20E406FD00D5C5C0 /* AnswersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswersVC.swift; sourceTree = "<group>"; };
-		66A7A49120E4071B00D5C5C0 /* FinishVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishVC.swift; sourceTree = "<group>"; };
-		66A7A49320E4073900D5C5C0 /* QuestionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionVC.swift; sourceTree = "<group>"; };
-		66A7A49520E4170800D5C5C0 /* bigButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bigButton.swift; sourceTree = "<group>"; };
-		66A7A49820E419F500D5C5C0 /* Nuvo Pro - Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nuvo Pro - Medium.otf"; sourceTree = "<group>"; };
-		66A7A49920E419F500D5C5C0 /* Nuvo Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nuvo Pro.otf"; sourceTree = "<group>"; };
-		66A7A49A20E419F500D5C5C0 /* Nuvo Pro - Extra Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nuvo Pro - Extra Bold.otf"; sourceTree = "<group>"; };
-		66A7A49B20E419F500D5C5C0 /* Nuvo Pro - Black Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nuvo Pro - Black Italic.otf"; sourceTree = "<group>"; };
-		66A7A49C20E419F500D5C5C0 /* Nuvo Pro - Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nuvo Pro - Bold.otf"; sourceTree = "<group>"; };
-		66A7A49D20E419F500D5C5C0 /* Nuvo Pro - Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nuvo Pro - Italic.otf"; sourceTree = "<group>"; };
-		66A7A49E20E419F500D5C5C0 /* Nuvo Pro - Bold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nuvo Pro - Bold Italic.otf"; sourceTree = "<group>"; };
-		66A7A49F20E419F600D5C5C0 /* Nuvo Pro - Medium Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nuvo Pro - Medium Italic.otf"; sourceTree = "<group>"; };
-		66A7A4A020E419F600D5C5C0 /* Nuvo Pro - Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nuvo Pro - Black.otf"; sourceTree = "<group>"; };
-		66A7A4A120E419F600D5C5C0 /* Nuvo Pro - Extra Bold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nuvo Pro - Extra Bold Italic.otf"; sourceTree = "<group>"; };
-		66A7A4AC20E446D800D5C5C0 /* NamesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamesVC.swift; sourceTree = "<group>"; };
-		66A7A4AE20E554B500D5C5C0 /* playerLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playerLabel.swift; sourceTree = "<group>"; };
-		66A7A4B020E5662500D5C5C0 /* questionLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionLabel.swift; sourceTree = "<group>"; };
-		66A7A4B220E593FC00D5C5C0 /* DataModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModule.swift; sourceTree = "<group>"; };
+		66A7A4B220E593FC00D5C5C0 /* DataModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DataModule.swift; path = model/DataModule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				66A7A4B220E593FC00D5C5C0 /* DataModule.swift */,
+				665962D520EC1E40000CD3FA /* playerData.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -118,9 +119,9 @@
 		66A7A48920E4061400D5C5C0 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				66A7A49520E4170800D5C5C0 /* bigButton.swift */,
-				66A7A4AE20E554B500D5C5C0 /* playerLabel.swift */,
-				66A7A4B020E5662500D5C5C0 /* questionLabel.swift */,
+				665962F920EC2082000CD3FA /* bigButton.swift */,
+				665962FA20EC2083000CD3FA /* playerLabel.swift */,
+				665962FB20EC2083000CD3FA /* questionLabel.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -128,13 +129,13 @@
 		66A7A48A20E4061A00D5C5C0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				66A7A48F20E406FD00D5C5C0 /* AnswersVC.swift */,
-				66A7A49120E4071B00D5C5C0 /* FinishVC.swift */,
-				66A7A4AC20E446D800D5C5C0 /* NamesVC.swift */,
-				66A7A48D20E406C300D5C5C0 /* GetReadyVC.swift */,
-				66A7A48B20E4069D00D5C5C0 /* InstructionsVC.swift */,
-				66A7A49320E4073900D5C5C0 /* QuestionVC.swift */,
-				66A7A47820E4044800D5C5C0 /* WelcomeVC.swift */,
+				665962F020EC2074000CD3FA /* AnswersVC.swift */,
+				665962EE20EC2074000CD3FA /* FinishVC.swift */,
+				665962F120EC2074000CD3FA /* GetReadyVC.swift */,
+				665962EF20EC2074000CD3FA /* InstructionsVC.swift */,
+				665962EB20EC2074000CD3FA /* NamesVC.swift */,
+				665962EC20EC2074000CD3FA /* QuestionVC.swift */,
+				665962ED20EC2074000CD3FA /* WelcomeVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -142,16 +143,15 @@
 		66A7A49720E419CA00D5C5C0 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				66A7A49B20E419F500D5C5C0 /* Nuvo Pro - Black Italic.otf */,
-				66A7A4A020E419F600D5C5C0 /* Nuvo Pro - Black.otf */,
-				66A7A49E20E419F500D5C5C0 /* Nuvo Pro - Bold Italic.otf */,
-				66A7A49C20E419F500D5C5C0 /* Nuvo Pro - Bold.otf */,
-				66A7A4A120E419F600D5C5C0 /* Nuvo Pro - Extra Bold Italic.otf */,
-				66A7A49A20E419F500D5C5C0 /* Nuvo Pro - Extra Bold.otf */,
-				66A7A49D20E419F500D5C5C0 /* Nuvo Pro - Italic.otf */,
-				66A7A49F20E419F600D5C5C0 /* Nuvo Pro - Medium Italic.otf */,
-				66A7A49820E419F500D5C5C0 /* Nuvo Pro - Medium.otf */,
-				66A7A49920E419F500D5C5C0 /* Nuvo Pro.otf */,
+				665962E120EC1FFD000CD3FA /* Nuvo Pro - Black.otf */,
+				665962DA20EC1FFC000CD3FA /* Nuvo Pro - Bold Italic.otf */,
+				665962DD20EC1FFC000CD3FA /* Nuvo Pro - Bold.otf */,
+				665962DF20EC1FFD000CD3FA /* Nuvo Pro - Extra Bold Italic.otf */,
+				665962D920EC1FFC000CD3FA /* Nuvo Pro - Extra Bold.otf */,
+				665962DE20EC1FFC000CD3FA /* Nuvo Pro - Italic.otf */,
+				665962DC20EC1FFC000CD3FA /* Nuvo Pro - Medium Italic.otf */,
+				665962DB20EC1FFC000CD3FA /* Nuvo Pro - Medium.otf */,
+				665962E020EC1FFD000CD3FA /* Nuvo Pro.otf */,
 			);
 			name = Fonts;
 			sourceTree = "<group>";
@@ -214,19 +214,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66A7A4A520E419F600D5C5C0 /* Nuvo Pro - Black Italic.otf in Resources */,
-				66A7A4A620E419F600D5C5C0 /* Nuvo Pro - Bold.otf in Resources */,
 				66A7A48120E4044A00D5C5C0 /* LaunchScreen.storyboard in Resources */,
+				665962E620EC1FFD000CD3FA /* Nuvo Pro - Bold.otf in Resources */,
+				665962E820EC1FFD000CD3FA /* Nuvo Pro - Extra Bold Italic.otf in Resources */,
 				66A7A47E20E4044A00D5C5C0 /* Assets.xcassets in Resources */,
-				66A7A4A820E419F600D5C5C0 /* Nuvo Pro - Bold Italic.otf in Resources */,
-				66A7A4A320E419F600D5C5C0 /* Nuvo Pro.otf in Resources */,
 				66A7A47C20E4044800D5C5C0 /* Main.storyboard in Resources */,
-				66A7A4A920E419F600D5C5C0 /* Nuvo Pro - Medium Italic.otf in Resources */,
-				66A7A4A220E419F600D5C5C0 /* Nuvo Pro - Medium.otf in Resources */,
-				66A7A4A420E419F600D5C5C0 /* Nuvo Pro - Extra Bold.otf in Resources */,
-				66A7A4AA20E419F600D5C5C0 /* Nuvo Pro - Black.otf in Resources */,
-				66A7A4A720E419F600D5C5C0 /* Nuvo Pro - Italic.otf in Resources */,
-				66A7A4AB20E419F600D5C5C0 /* Nuvo Pro - Extra Bold Italic.otf in Resources */,
+				665962E220EC1FFD000CD3FA /* Nuvo Pro - Extra Bold.otf in Resources */,
+				665962E320EC1FFD000CD3FA /* Nuvo Pro - Bold Italic.otf in Resources */,
+				665962E420EC1FFD000CD3FA /* Nuvo Pro - Medium.otf in Resources */,
+				665962E920EC1FFD000CD3FA /* Nuvo Pro.otf in Resources */,
+				665962E520EC1FFD000CD3FA /* Nuvo Pro - Medium Italic.otf in Resources */,
+				665962EA20EC1FFD000CD3FA /* Nuvo Pro - Black.otf in Resources */,
+				665962E720EC1FFD000CD3FA /* Nuvo Pro - Italic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,17 +236,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66A7A47920E4044800D5C5C0 /* WelcomeVC.swift in Sources */,
-				66A7A49020E406FD00D5C5C0 /* AnswersVC.swift in Sources */,
-				66A7A49420E4073900D5C5C0 /* QuestionVC.swift in Sources */,
-				66A7A48E20E406C300D5C5C0 /* GetReadyVC.swift in Sources */,
-				66A7A49220E4071B00D5C5C0 /* FinishVC.swift in Sources */,
-				66A7A4AD20E446D800D5C5C0 /* NamesVC.swift in Sources */,
+				665962D620EC1E40000CD3FA /* playerData.swift in Sources */,
+				665962FE20EC2083000CD3FA /* questionLabel.swift in Sources */,
+				665962F520EC2074000CD3FA /* FinishVC.swift in Sources */,
 				66A7A47720E4044800D5C5C0 /* AppDelegate.swift in Sources */,
-				66A7A48C20E4069D00D5C5C0 /* InstructionsVC.swift in Sources */,
-				66A7A49620E4170800D5C5C0 /* bigButton.swift in Sources */,
-				66A7A4B120E5662500D5C5C0 /* questionLabel.swift in Sources */,
-				66A7A4AF20E554B500D5C5C0 /* playerLabel.swift in Sources */,
+				665962F820EC2074000CD3FA /* GetReadyVC.swift in Sources */,
+				665962F320EC2074000CD3FA /* QuestionVC.swift in Sources */,
+				665962FD20EC2083000CD3FA /* playerLabel.swift in Sources */,
+				665962F720EC2074000CD3FA /* AnswersVC.swift in Sources */,
+				665962F220EC2074000CD3FA /* NamesVC.swift in Sources */,
+				665962F420EC2074000CD3FA /* WelcomeVC.swift in Sources */,
+				665962FC20EC2083000CD3FA /* bigButton.swift in Sources */,
+				665962F620EC2074000CD3FA /* InstructionsVC.swift in Sources */,
 				66A7A4B320E593FC00D5C5C0 /* DataModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
