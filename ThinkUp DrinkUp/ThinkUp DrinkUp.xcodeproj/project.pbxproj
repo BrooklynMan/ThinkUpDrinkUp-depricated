@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		665962D620EC1E40000CD3FA /* playerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665962D520EC1E40000CD3FA /* playerData.swift */; };
 		665962E220EC1FFD000CD3FA /* Nuvo Pro - Extra Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 665962D920EC1FFC000CD3FA /* Nuvo Pro - Extra Bold.otf */; };
 		665962E320EC1FFD000CD3FA /* Nuvo Pro - Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 665962DA20EC1FFC000CD3FA /* Nuvo Pro - Bold Italic.otf */; };
 		665962E420EC1FFD000CD3FA /* Nuvo Pro - Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 665962DB20EC1FFC000CD3FA /* Nuvo Pro - Medium.otf */; };
@@ -35,7 +34,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		665962D520EC1E40000CD3FA /* playerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = playerData.swift; path = model/playerData.swift; sourceTree = "<group>"; };
 		665962D920EC1FFC000CD3FA /* Nuvo Pro - Extra Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nuvo Pro - Extra Bold.otf"; path = "fonts/Nuvo Pro - Extra Bold.otf"; sourceTree = "<group>"; };
 		665962DA20EC1FFC000CD3FA /* Nuvo Pro - Bold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nuvo Pro - Bold Italic.otf"; path = "fonts/Nuvo Pro - Bold Italic.otf"; sourceTree = "<group>"; };
 		665962DB20EC1FFC000CD3FA /* Nuvo Pro - Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nuvo Pro - Medium.otf"; path = "fonts/Nuvo Pro - Medium.otf"; sourceTree = "<group>"; };
@@ -111,7 +109,6 @@
 			isa = PBXGroup;
 			children = (
 				66A7A4B220E593FC00D5C5C0 /* DataModule.swift */,
-				665962D520EC1E40000CD3FA /* playerData.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -236,7 +233,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				665962D620EC1E40000CD3FA /* playerData.swift in Sources */,
 				665962FE20EC2083000CD3FA /* questionLabel.swift in Sources */,
 				665962F520EC2074000CD3FA /* FinishVC.swift in Sources */,
 				66A7A47720E4044800D5C5C0 /* AppDelegate.swift in Sources */,

@@ -17,10 +17,20 @@ var currentPlayerIndex = 1
 
 // player name array
 
-var playerNames:[String] = ["Player 1", "Player 2", "Player 3", "Player 4"]
+var playerNames:[String] = [
+    "Player 1",
+    "Player 2",
+    "Player 3",
+    "Player 4"
+]
 
 // player answers
 
-var playerAnswers:[String] = ["Answer 1", "Answer 2", "Answer 3", "Answer 4"]
+var playerAnswers:[String] = [
+    "Answer 1",
+    "Answer 2",
+    "Answer 3",
+    "Answer 4"
+]
 
 

@@ -10,10 +10,12 @@ import UIKit
 
 class InstructionsVC: UIViewController {
 
+    @IBOutlet weak var instructionsBox: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        instructionsBox.text = "The game is pretty simple! Just get THREE of your friends (the game requires four players), and enter your names. \n\nNext, you answer silly, short-answer questions about each other, passing the phone to each other between each answer. \n\nWhen you’re done, you pass the phone back to the main player, who chooses the best answer. \n\nThe winner takes a drink! \n\nAfter, you can play again with the same players, or start over with new players! \n\nHAVE FUN!"
     }
     
 

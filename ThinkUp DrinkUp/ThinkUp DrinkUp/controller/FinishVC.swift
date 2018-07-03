@@ -16,6 +16,33 @@ class FinishVC: UIViewController {
     
     @IBAction func PlayAgainButton(_ sender: Any) {
         
+        // for a new round, the names will need to be shifted in the name array, and the round number increased
+        playerRefactor()
+        
+        performSegue(withIdentifier: "PlayAgainGRSegue", sender: self)
+    }
+    
+    @IBAction func NewGameButton(_ sender: Any) {
+        
+        // for a new game, the game variables will need to be reinitialized
+        playerReset()
+        
+        performSegue(withIdentifier: "StartOverVCSegue", sender: self)
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        refactorRound()
+
+        // the round number need to be converted from Int to String and set +1 due to indexing from 0
+        let thisRoundNumber = String(roundNumber)
+        CurrentRoundNumber.text = "Round: " + thisRoundNumber
+        
+        WinningPlayer.text = playerNames[answerPicked]
+    }
+    
+    func playerRefactor() {
         // shift player names for the next round
         let retainer = playerNames[0]
         
@@ -26,16 +53,12 @@ class FinishVC: UIViewController {
         
         // set the subject to the next player after the shift
         currentSubject = String(playerNames[0])
-
+        
         // reset player and subject index references
         currentPlayerIndex = 1
-        
-        performSegue(withIdentifier: "PlayAgainGRSegue", sender: self)
     }
     
-    @IBAction func NewGameButton(_ sender: Any) {
-        
-        // for a new game, these variables will need to be reinitialized
+    func playerReset() {
         // reset player names
         playerNames[0] = "Player 1"
         playerNames[1] = "Player 2"
@@ -47,27 +70,14 @@ class FinishVC: UIViewController {
         
         // reset player and subject index references
         currentPlayerIndex = 1
-        
-        performSegue(withIdentifier: "StartOverVCSegue", sender: self)
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-        
-        WinningPlayer.text = playerNames[answerPicked]
-        
+    func refactorRound() {
         if roundNumber < 24 {
             roundNumber = roundNumber + 1
         } else {
             roundNumber = 0
         }
-        // Do any additional setup after loading the view.
-        // the round number need to be converted from Int to String and set +1 due to indexing from 0
-        let thisRoundNumber = String(roundNumber)
-        CurrentRoundNumber.text = "Round: " + thisRoundNumber
-        
     }
 
     /*

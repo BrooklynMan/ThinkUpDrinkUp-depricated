@@ -21,8 +21,7 @@ class QuestionVC: UIViewController {
         if currentPlayerIndex < 3 {
             
             // submit the answer given to the answers array, then incriment the current player index before returning to the staging screen. repeat this twice, for all 3 players answering questions
-            let answer = PlayerAnswerBox.text
-            playerAnswers[currentPlayerIndex] = answer!
+            submitAnswer()
             
             currentPlayerIndex += 1
             
@@ -32,8 +31,7 @@ class QuestionVC: UIViewController {
         } else {
             
             // submit final the answer given to the answers array, then continue to the answer picker screen
-            let answer = PlayerAnswerBox.text
-            playerAnswers[currentPlayerIndex] = answer!
+            submitAnswer()
             
             // if all players have answered, go to the answer picker screen
             performSegue(withIdentifier: "AnswersVCSegue", sender: self)
@@ -48,8 +46,6 @@ class QuestionVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-        
         // populate the question box based on the round number
         QuestionBox.text = questions[roundNumber]
         
@@ -57,6 +53,11 @@ class QuestionVC: UIViewController {
         let thisRoundNumber = String(roundNumber + 1)
         let thisQuestionNumber = String(questionNumber + 1)
         QuestionAndRoundLabel.text = "Subject: " + currentSubject + " Q: " + thisQuestionNumber + " R: " + thisRoundNumber
+    }
+    
+    func submitAnswer() {
+        let answer = PlayerAnswerBox.text
+        playerAnswers[currentPlayerIndex] = answer!
     }
     
     // questions array

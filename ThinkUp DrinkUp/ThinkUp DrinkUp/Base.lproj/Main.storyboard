@@ -359,7 +359,7 @@ When finished, press ‘save’ to continue!</string>
                                 <fontDescription key="fontDescription" name="NuvoPro-Bold" family="Nuvo Pro" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YOUR ANSWER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TVN-er-2I0">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YOUR ANSWER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TVN-er-2I0" customClass="playerLabel" customModule="ThinkUp_DrinkUp" customModuleProvider="target">
                                 <rect key="frame" x="16" y="20" width="343" height="53"/>
                                 <fontDescription key="fontDescription" name="NuvoPro-Xbold" family="Nuvo Pro" pointSize="41"/>
                                 <color key="textColor" red="0.36074599619999997" green="0.63203537460000003" blue="0.97261911629999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -391,7 +391,7 @@ When finished, press ‘save’ to continue!</string>
                                 <fontDescription key="fontDescription" name="NuvoPro-Bold" family="Nuvo Pro" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="yes" spellCheckingType="yes" returnKeyType="done" enablesReturnKeyAutomatically="YES" smartDashesType="yes" smartInsertDeleteType="yes" smartQuotesType="yes"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="QUESTION: X - ROUND: X" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iZy-pE-XbM">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="QUESTION: X - ROUND: X" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iZy-pE-XbM" customClass="questionLabel" customModule="ThinkUp_DrinkUp" customModuleProvider="target">
                                 <rect key="frame" x="16" y="308" width="343" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="kDn-2z-Vj7"/>
@@ -743,7 +743,7 @@ When finished, press ‘save’ to continue!</string>
                             <imageView userInteractionEnabled="NO" alpha="0.75" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="TextBoxLg" translatesAutoresizingMaskIntoConstraints="NO" id="gnu-od-ywb">
                                 <rect key="frame" x="25.5" y="92" width="324" height="495"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INSTRUCTIONS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SJm-4O-Fbu">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INSTRUCTIONS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SJm-4O-Fbu" customClass="playerLabel" customModule="ThinkUp_DrinkUp" customModuleProvider="target">
                                 <rect key="frame" x="19" y="20" width="337" height="62"/>
                                 <fontDescription key="fontDescription" name="NuvoPro-Xbold" family="Nuvo Pro" pointSize="48"/>
                                 <color key="textColor" red="0.36074599619999997" green="0.63203537460000003" blue="0.97261911629999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -765,7 +765,7 @@ When finished, press ‘save’ to continue!</string>
                                     <segue destination="BYZ-38-t0r" kind="show" animates="NO" id="6Ue-XQ-RgE"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" contentInsetAdjustmentBehavior="scrollableAxes" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rlm-vg-5rt">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" contentInsetAdjustmentBehavior="scrollableAxes" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rlm-vg-5rt">
                                 <rect key="frame" x="43" y="115" width="289" height="458"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">The game is pretty simple! Just get THREE of your friends (the game requires four players), and enter your names.
@@ -814,6 +814,9 @@ HAVE FUN!</string>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Ab-l3-oWC"/>
                     </view>
+                    <connections>
+                        <outlet property="instructionsBox" destination="Rlm-vg-5rt" id="WsH-QR-q4U"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uA6-hA-odv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -838,7 +841,7 @@ HAVE FUN!</string>
         <image name="title" width="328" height="180"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="uvv-mG-BRd"/>
-        <segue reference="8wq-57-UTW"/>
+        <segue reference="U6y-sM-hLH"/>
+        <segue reference="6Ue-XQ-RgE"/>
     </inferredMetricsTieBreakers>
 </document>
