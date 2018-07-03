@@ -396,7 +396,7 @@ When finished, press ‘save’ to continue!</string>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="kDn-2z-Vj7"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="NuvoPro-Xbold" family="Nuvo Pro" pointSize="29"/>
+                                <fontDescription key="fontDescription" name="NuvoPro-Xbold" family="Nuvo Pro" pointSize="26"/>
                                 <color key="textColor" red="0.36074599619999997" green="0.63203537460000003" blue="0.97261911629999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -838,7 +838,7 @@ HAVE FUN!</string>
         <image name="title" width="328" height="180"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="0MP-mM-6CF"/>
+        <segue reference="uvv-mG-BRd"/>
         <segue reference="8wq-57-UTW"/>
     </inferredMetricsTieBreakers>
 </document>

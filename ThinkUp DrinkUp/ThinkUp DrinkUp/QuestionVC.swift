@@ -56,7 +56,7 @@ class QuestionVC: UIViewController {
         // the round number  and question number need to be converted from Int to String and set +1 due to indexing from 0
         let thisRoundNumber = String(roundNumber + 1)
         let thisQuestionNumber = String(questionNumber + 1)
-        QuestionAndRoundLabel.text = "Question: " + thisQuestionNumber + "Round: " + thisRoundNumber
+        QuestionAndRoundLabel.text = "Subject: " + currentSubject + " Q: " + thisQuestionNumber + " R: " + thisRoundNumber
     }
     
     // questions array
